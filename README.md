@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project is an Express REST API for a Poker game. It provides endpoints to manage poker games, players, and related functionalities.
+This project is an Express REST API for a Poker game. It provides endpoints to manage poker players, players, and related functionalities.
 
 ## Features
 
-- Create, retrieve, update, and delete poker games
+- Create, retrieve, update, and delete poker players
 - Manage players in a poker game
 - Handle game actions such as dealing cards, betting, and determining winners
 
@@ -26,20 +26,20 @@ To run the Poker API locally, follow these steps:
 
 ##### List API Rest here
 
-- **GET /api/games**: Retrieve a list of all poker games.
-- **GET /api/games/:id**: Retrieve details of a specific poker game.
-- **POST /api/games**: Create a new poker game.
-- **PUT /api/games/:id**: Update an existing poker game.
-- **DELETE /api/games/:id**: Delete a poker game.
-- **POST /api/games/:id/players**: Add a player to a poker game.
-- **DELETE /api/games/:id/players/:playerId**: Remove a player from a poker game.
+- **GET /api/players**: Retrieve a list of all poker players.
+- **GET /api/players/:id**: Retrieve details of a specific poker game.
+- **POST /api/players**: Create a new poker game.
+- **PUT /api/players/:id**: Update an existing poker game.
+- **DELETE /api/players/:id**: Delete a poker game.
+- **POST /api/players/:id/players**: Add a player to a poker game.
+- **DELETE /api/players/:id/players/:playerId**: Remove a player from a poker game.
 
 ### Example Usage
 
 #### Example API Rest consumption
 
 ```bash
-curl -X POST http://localhost:3000/api/games/sample -d '{"body": "value"}' -H "Content-Type: application/json"
+curl -X GET http://localhost:3000/api/players/"
 ```
 
 ## Testing
