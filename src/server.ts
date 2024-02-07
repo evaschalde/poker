@@ -1,5 +1,5 @@
-import express, {Application} from 'express';
-import playersRouter from './routes/players';
+import express, { Application } from 'express';
+import playersRouter from './routes/players.route';
 
 const app: Application = express();
 

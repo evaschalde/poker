@@ -12,7 +12,8 @@
     "start": "node dist/server.js",
     "test": "jest",
     "build": "tsc",
-    "lint": "npx eslint --fix --ext .js,.ts src"
+    "lint": "npx eslint --fix --ext .js,.ts src",
+    "commit": "cz"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
